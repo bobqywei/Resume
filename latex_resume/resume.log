@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.19)  3 SEP 2020 22:57
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.19)  15 SEP 2020 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -759,6 +759,19 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 9.5pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/sc' will be
 (Font)              scaled to size 9.5pt on input line 17.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.501pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.65067pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.7505pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.49898pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.64925pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.74948pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 9.5pt on input line 17.
 ) (./resume/projects.tex) (./resume/education.tex) [1
@@ -773,11 +786,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31896 strings out of 479282
- 630452 string characters out of 5880512
+ 31920 strings out of 479282
+ 631357 string characters out of 5880512
  1066281 words of memory out of 5000000
- 49008 multiletter control sequences out of 15000+600000
- 534990 words of font info for 95 fonts, out of 8000000 for 9000
+ 49021 multiletter control sequences out of 15000+600000
+ 536642 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,11n,112p,831b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 
