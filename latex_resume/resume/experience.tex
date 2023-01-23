@@ -2,16 +2,29 @@
 
 \begin{cventries}
   \cventry
-    {Software Engineer Intern} % Job title
-    {X, the Moonshot Factory (Formerly Google X)} % Organization
+    {Machine Learning Engineer} % Job title
+    {Google X: Everyday Robots} % Organization
     {Mountain View, CA} % Location
-    {May 2021 - Present} % Date(s)
+    {July 2022 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Bridging the gap between humans and robots at \underline{the Everyday Robots Project}, through joint language \& vision models}
-        \item {Replaced suite of task-specific classifiers with a single pre-trained model that generalizes out-of-distribution}
-        \item {Productionized large-scale \textbf{transformer} models for image and natural language processing on edge devices (robot) and on the cloud (\textbf{Google Cloud ML Engine}); deployed performant \textbf{TFLite} graphs with post-training quantization}
-        \item {Developed and maintained a large \textbf{Tensorflow} codebase with users across Google Brain and Google X}
+        \item {Trained and deployed \textbf{joint vision \& language models (VLM)} for robot perception, enabling new \textbf{scene-level classification} and real-time \textbf{open-vocabulary object detection}, with > \textbf{60k} inferences across diverse production services}
+        \item {Led integration of perception models into \textbf{end-to-end} QT-Opt \textbf{RL} algorithms, reducing error by > \textbf{60\%} in \underline{long-horizon manipulation tasks}, and drastically improving \underline{adaptation to unseen environments} (paper under review)}
+        \item {Built official \textbf{Keras} \textbf{diffusion} model \href{https://github.com/keras-team/keras-cv/pull/973}{\underline{\textit{inpainting workflow}}}. Scaled up with \textbf{Flume} for synthetic data augmentation pipeline. Improving perception and manipulation model \underline{long-tail performance}}
+        \item {Revamped production \textbf{robot log collection} and \textbf{training dataset extraction} pipelines}
+        \item {Co-led development of \textbf{point-cloud} models and end-to-end data pipelines for object grasp pose prediction.}
+        \item {Developed and maintained large \textbf{Tensorflow} VLM codebase with users across Google Brain and Google X}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Software Engineer Intern}
+    {Waabi}
+    {Toronto, ON}
+    {September 2021 - December 2021}
+    {
+      \begin{cvitems}
+        \item {Developed and optimized \textbf{PyBullet} based simulator for self-driving vehicles, details under NDA}
       \end{cvitems}
     }
 
@@ -22,7 +35,7 @@
     {February 2021 - May 2021} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Sped up training of large GAN's (PixelGAN, BigGAN) on real-world datasets (FFHQ, ImageNet); supervised by \textbf{Dr. Sanja Fidler}}
+        \item {Sped up training of large GAN's (PixelGAN, BigGAN) on real-world datasets (FFHQ); supervised by \textbf{Dr. Sanja Fidler}}
         \item {Implemented and maintained custom optimizers and higher order gradient algorithms in a large \textbf{Pytorch} codebase}
       \end{cvitems}
     }
@@ -38,8 +51,7 @@
         \item {Reduced object detection post-processing time from \textbf{7ms}
         to \textbf{1.7ms} in \textbf{C++} production codebase for Tegra
         autonomous systems. Implemented novel \underline{probabilistic voting}
-        method with efficient \textbf{CUDA} kernels, replacing current
-        state-of-the-art}
+        method with efficient \textbf{CUDA} kernels, replacing serial NMS}
         \item {Proposed a novel scale-invariant loss for poly-line detection, increasing \underline{F1 score} by > \textbf{5\%}}
         % \item {Integrated scale-invariant loss functions in \textbf{Tensorflow} multi-task training, improving bounding box fscore by > \textbf{3\%}}
         % \item {Formulated prototypes for \underline{uncertainty-aware} training and \underline{point-based box detection}}
@@ -70,9 +82,8 @@
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Designed an interactive 3D terrain generation tool: \href{https://www.sidefx.com/tutorials/machine-learning-data-preparation/}{\underline{\textit{sidefx.com/tutorials/machine-learning-data-preparation/}}}}
-        \item {Developed machine learning models (\textbf{pix2pix GAN}) to
+        \item {Developed generative models (\textbf{pix2pix GAN}) to
         simulate erosion over \textbf{50,000\times} faster than conventional methods}
-        \item {Engineered a full \textbf{C++} and \textbf{Python} frontend + backend for training and deploying neural networks within \textbf{SideFX Houdini}}
       \end{cvitems}
     }
 
