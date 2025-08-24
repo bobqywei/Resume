@@ -69,7 +69,7 @@
 % Needed to manage fonts
 \RequirePackage[quiet]{fontspec}
 % To support LaTeX quoting style
-\defaultfontfeatures{Ligatures=TeX}
+\defaultfontfeatures{Ligatures=TeX, Path=fonts/}
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
@@ -514,7 +514,7 @@
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
-  \vspace{\acvSectionContentTopSkip}
+  % \vspace{\acvSectionContentTopSkip}
   \begin{center}
 }{%
   \end{center}
@@ -522,13 +522,12 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
-  \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#1#3#4}
       {\entrytitlestyle{#2} \\
-        \multicolumn{1}{L{\textwidth}}{\descriptionstyle{#5}}}
+        \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}}
       {\ifempty{#2#3}
           {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
           {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
@@ -599,7 +598,7 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{-4.0mm}
+  \vspace{-4mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
@@ -607,5 +606,4 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
 }
